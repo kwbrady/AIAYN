@@ -1,4 +1,7 @@
 # AIAYN
+
+_Note: This model is still being trained and the Initial_Weights referenced in the script have not yet been uploaded_
+
 A PyTorch implementation of the transformer from the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 This is a personal project that I'm using to build intuition about transformer training and operation. It makes use of a number of inbuilt PyTorch classes, but I've substituted my own implementations for areas where I needed checks on understanding. In particular, I define my own version of multi-head attention and the classes needed to organize the Multi30k English-German dataset into PyTorch objects.
@@ -31,8 +34,6 @@ Data Management
 Training
 
 > Training Loop
-
-> Regularization
 
 > Optimization
 
